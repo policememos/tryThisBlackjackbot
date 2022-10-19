@@ -12,7 +12,6 @@ bot = Bot(token='5141905547:AAGaUm3F5lGzlnsDGMLdKHisN-4-c-N3ljY')
 dp = Dispatcher(bot)
 logging.basicConfig(level=logging.INFO)
 
-
 async def start(_):
     print("________________________________________________\n________________Bot is ONLINE___________________\n")
 # Обрабатываем ошибку блока юзером
@@ -73,14 +72,7 @@ async def send_welcome(message: types.message):
     await message.answer('Сыграем?',reply_markup=keyboard)
     
     
-    
-
-
-
-
-
-#___________________________________________________________________________________________
-    
+   
      
 # Функция на кнопку кнопку с текстом "давай"
 async def with_puree(message: types.Message):
